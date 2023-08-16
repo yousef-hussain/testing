@@ -1,0 +1,23 @@
+body {
+    /* height: 100vh ; */
+    width: auto;
+    /* width: 1700px; */
+    overflow-y: scroll;
+  }
+  .container {
+    width: auto;
+    height: auto;
+    width: 75%;
+    overflow: auto;
+  }
+  .content {
+    /* min-width: 800px;\ */
+    padding: 20px;
+    min-height: 50px;
+    border: 2px dashed black;
+  }
+
+  .container >.content{
+    width: 100vw;
+
+  }
